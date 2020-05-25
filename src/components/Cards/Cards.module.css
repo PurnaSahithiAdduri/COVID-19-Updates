@@ -1,0 +1,42 @@
+.container{
+    margin:40px 0px;
+    width: 100%;
+}
+
+.card{
+    margin:0 2% !important;
+}
+
+.infected{
+    border-bottom: 10px solid rgb(0,0,225,0.5);
+}
+
+.recovered{
+    border-bottom: 10px solid rgb(0,225,0,0.5);
+}
+
+.deaths{
+    border-bottom: 10px solid rgb(225,0,0,0.5);
+}
+
+
+.bluecolor{
+    color:  rgb(0,0,225);
+    font-size: 28px !important;
+}
+
+.greencolor{
+    color:  rgb(0,225,0);
+    font-size: 28px !important;
+}
+
+.redcolor{
+    color: rgb(225,0,0);
+    font-size: 28px !important;
+}
+
+@media only screen and (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+    }
+  }
